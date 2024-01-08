@@ -1,0 +1,253 @@
+body {
+    font-family: 'Merriweather', serif;
+}
+
+header {
+    margin: 50px 140px 0px;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.banner-img {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url('resources/banner\ Image.png');
+    background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    border-radius: 16px;
+
+}
+
+.banner-img::after {
+    content: '';
+    position: absolute;
+
+
+    flex-shrink: 0;
+
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+.banner-text h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #FFF;
+
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+
+}
+
+.banner-text p {
+    font-size: 32px;
+    color: white;
+    opacity: 0.8;
+    font-weight: 400;
+
+}
+
+
+
+.off-section {
+    margin-top: 100px;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.off-section-img {
+    width: 100%;
+    height: 500px;
+    flex-shrink: 0;
+    position: absolute;
+}
+
+.off-section h1 {
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
+
+}
+
+.off-section p {
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.off-section h2 {
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+
+
+
+/* welcome section */
+main {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.welcome-section {
+    text-align: left;
+    padding: 50px 0;
+}
+
+.welcome-section-img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: url('resources/vectorrr.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.welcome-section-img::before {
+    content: '';
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+
+}
+
+.welcome-section-content {
+    position: relative;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+
+}
+
+.welcome-section-inner h1 {
+    font-size: 64px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+
+}
+
+.welcome-section-inner p {
+    width: 75%;
+    margin: 0;
+    font-weight: normal;
+    font-family: Inter;
+    color: rgba(255, 255, 255, 0.80);
+    line-height: 30px;
+}
+
+.welcome-section-inner button {
+    /* color: #FFF; */
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 10px;
+    cursor: pointer;
+    transition: all ease .2s;
+    border: 2px solid transparent
+}
+
+.welcome-section-inner button::hover {
+    border-color: #070211;
+    columns: black;
+    background: transparent;
+}
+
+.welcome-section {
+    /* width: 1320px;
+    height: 600px; */
+    flex-shrink: 0;
+    margin: 200px;
+
+}
+
+.span-color {
+    color: red;
+}
+
+
+
+/* .place-section {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 15px
+    padding: 20px;
+}
+
+.place-section-text {
+    position: relative;
+    top: 40%;
+    left: 40%;
+    font-size: 40px;
+    top: 50%; 
+    transform: translate(-50%, -50%);
+    left: 50%;
+    text-align: center;
+
+} */
+.place-section {
+    font-family: sans-serif;
+    text-align: center;
+    /* Center the content */
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 2px;
+    margin: 30px;
+        /* Add some space around the edges */
+
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 10px 15px 10px;
+    padding: 20px;
+
+}
+
+
+.place-section p {
+    margin-bottom: 15px;
+}
+
+.place-section button {
+    background-color: red;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
